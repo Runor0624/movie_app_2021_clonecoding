@@ -26,7 +26,24 @@
     -->
     <title>Movie App</title>
   </head>
-  <body>
+  <body class="Movie">
+    <header class="Darkmode"> <!-- color : black <-> white -->
+      <div class="Darkmode_btn">
+        <input type="button" value="Darkmode" onclick=" 
+         let Dark_btn = document.querySelector('body');
+         if(this.value === 'Darkmode'){
+           Dark_btn.style.backgroundColor = 'black';
+           Dark_btn.style.color = 'white';
+           this.value = 'Darkmode off';
+         } else {
+           Dark_btn.style.backgroundColor = 'white';
+           Dark_btn.style.color = 'black';
+           this.value = 'Darkmode';
+         }
+         ">
+      </div>
+    </header>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

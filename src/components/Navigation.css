@@ -23,13 +23,13 @@
 
 .nav a {
   text-decoration: none;
-  color: #0008fc;
+  color: #000700fc;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   font-size: 600;
 }
 
 .nav a:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
