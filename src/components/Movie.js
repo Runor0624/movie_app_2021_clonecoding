@@ -22,13 +22,12 @@ function Movie({ title, year, summary, poster, genres }) {
                     );
 })}
             </ul>
-            <p className="movie__summary">{summary.slice(0, 190)}...</p>
+            <p className="movie__summary">{summary.slice(0, 170)}...</p>
         </div>
         </Link>
        </div> 
     );
 }
-
 Movie.propTypes = { 
     year: PropTypes.number.isRequired,
     title: PropTypes.string.isRequired,

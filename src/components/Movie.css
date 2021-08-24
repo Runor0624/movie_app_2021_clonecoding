@@ -1,7 +1,7 @@
 .movies .movie {
   background-color: white;
   margin-bottom: 70px;
-  font-weight: 300;
+  font-weight: 200;
   padding: 20px;
   border-radius: 5px;
   color: #adaeb9;
@@ -11,7 +11,7 @@
 
 .movies .movie a {
   display: grid;
-  grid-template-columns: minmax(150px, 1fr) 2fr;
+  grid-template-columns: minmax(130px, 1fr) 3fr;
   grid-gap: 20px;
   text-decoration: none;
   color: inherit;
@@ -30,11 +30,13 @@
 .movie .movie__year {
   margin: 0;
   font-weight: 300;
+  font-weight: bold;
 }
 .movie .movie__title {
   margin-bottom: 5px;
   font-size: 24px;
   color: #2c2c2c;
+  font-weight: bold;
 }
 .movie .movie__genres {
   list-style: none;
@@ -48,4 +50,5 @@
 .movie .movie__year {
   margin-right: 10px;
   font-size: 14px;
+  color: dimgray;
 }
