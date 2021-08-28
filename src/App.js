@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { HashRouter, Route } from 'react-router-dom';
-import About from './routes/About';
+import Progress from './routes/Progress';
 import Home from './routes/Home';
 import Navigation from './components/Navigation';
 import Detail from './routes/Detail';
@@ -12,7 +12,7 @@ function App() {
     <HashRouter>
       <Navigation />
       <Route path="/" exact={true} component={Home} />
-      <Route path="/about" component={About} />
+      <Route path="/Progress" component={Progress} />
       <Route path="/movie-detail" component={Detail} />
     </HashRouter>
   );
